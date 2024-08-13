@@ -9,4 +9,8 @@ contract TestBUSD is ERC20 {
     function mint(uint256 _amount) external {
         _mint(msg.sender, _amount);
     }
+
+    function burn(uint256 _amount) external {
+        _burn(msg.sender, _amount);
+    }
 }

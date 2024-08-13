@@ -28,6 +28,7 @@
     "deploy:localnet": "hardhat run deploy/deploy.js --network localhost",
     "deploy:mainnet": "hardhat --network bsc_mainnet run scripts/deploy.js",
     "deploy:testnet": "hardhat --network testnet run scripts/deploy.js",
-    "deploy:ropsten": "hardhat --network ropsten run scripts/deploy.js"
+    "deploy:ropsten": "hardhat --network ropsten run scripts/deploy.js",
+    "claimToken": "hardhat run scripts/fe-communi-claimToken.js"
   }
 }
