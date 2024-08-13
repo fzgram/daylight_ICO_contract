@@ -42,6 +42,10 @@ module.exports = {
     },
   },
   networks: {
+    localhost: {
+      url: "http://localhost:8545",
+      chainId: 31337,
+    },
     hardhat: {
       initialDate: "2021-04-04T00:00:00.000+00:00",
       saveDeployments: true,
